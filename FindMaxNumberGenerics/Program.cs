@@ -4,31 +4,79 @@ namespace FindMaxNumberGenerics
 {
     class Program
     {
-        public float FindMaximumFloat(float first, float second, float third)
+        public static int MaximumIntegerNumber(int Firstvalue, int secondvalue, int thirdvalue)
         {
-            if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
+            if (Firstvalue.CompareTo(secondvalue) > 0 && Firstvalue.CompareTo(thirdvalue) > 0 ||
+                Firstvalue.CompareTo(secondvalue) >= 0 && Firstvalue.CompareTo(thirdvalue) > 0 ||
+                Firstvalue.CompareTo(secondvalue) > 0 && Firstvalue.CompareTo(thirdvalue) >= 0)
             {
-                return first;
+                return Firstvalue;
             }
-            else if (second.CompareTo(first) > 0 && second.CompareTo(third) > 0)
+            if (secondvalue.CompareTo(Firstvalue) > 0 && secondvalue.CompareTo(thirdvalue) > 0 ||
+                secondvalue.CompareTo(Firstvalue) >= 0 && secondvalue.CompareTo(thirdvalue) > 0 ||
+                secondvalue.CompareTo(Firstvalue) > 0 && secondvalue.CompareTo(thirdvalue) >= 0)
             {
-                return second;
+                return secondvalue;
             }
-            else if (third.CompareTo(second) > 0 && third.CompareTo(first) > 0)
+            if (thirdvalue.CompareTo(Firstvalue) > 0 && thirdvalue.CompareTo(secondvalue) > 0 ||
+               thirdvalue.CompareTo(Firstvalue) >= 0 && thirdvalue.CompareTo(secondvalue) > 0 ||
+               thirdvalue.CompareTo(Firstvalue) > 0 && thirdvalue.CompareTo(secondvalue) >= 0)
             {
-                return third;
+                return thirdvalue;
             }
-            else
+            return Firstvalue;
+        }
+        public static double MaximumFloatNumber(double Firstvalue, double secondvalue, double thirdvalue)
+        {
+            if (Firstvalue.CompareTo(secondvalue) > 0 && Firstvalue.CompareTo(thirdvalue) > 0 ||
+                Firstvalue.CompareTo(secondvalue) >= 0 && Firstvalue.CompareTo(thirdvalue) > 0 ||
+                Firstvalue.CompareTo(secondvalue) > 0 && Firstvalue.CompareTo(thirdvalue) >= 0)
             {
-                Console.WriteLine("Same Numbers");
-                return -1;
+                return Firstvalue;
             }
+            if (secondvalue.CompareTo(Firstvalue) > 0 && secondvalue.CompareTo(thirdvalue) > 0 ||
+                secondvalue.CompareTo(Firstvalue) >= 0 && secondvalue.CompareTo(thirdvalue) > 0 ||
+                secondvalue.CompareTo(Firstvalue) > 0 && secondvalue.CompareTo(thirdvalue) >= 0)
+            {
+                return secondvalue;
+            }
+            if (thirdvalue.CompareTo(Firstvalue) > 0 && thirdvalue.CompareTo(secondvalue) > 0 ||
+               thirdvalue.CompareTo(Firstvalue) >= 0 && thirdvalue.CompareTo(secondvalue) > 0 ||
+               thirdvalue.CompareTo(Firstvalue) > 0 && thirdvalue.CompareTo(secondvalue) >= 0)
+            {
+                return thirdvalue;
+            }
+            return Firstvalue;
         }
 
+        public static String MaximumstringValue(String FirstString, String Secondstring, String ThirdString)
+        {
+            if (FirstString.CompareTo(Secondstring) > 0 && FirstString.CompareTo(ThirdString) > 0 ||
+                FirstString.CompareTo(Secondstring) >= 0 && FirstString.CompareTo(ThirdString) > 0 ||
+                FirstString.CompareTo(Secondstring) > 0 && FirstString.CompareTo(ThirdString) >= 0)
+            {
+                return FirstString;
+            }
+            if (Secondstring.CompareTo(FirstString) > 0 && Secondstring.CompareTo(ThirdString) > 0 ||
+                Secondstring.CompareTo(FirstString) >= 0 && Secondstring.CompareTo(ThirdString) > 0 ||
+                Secondstring.CompareTo(FirstString) > 0 && Secondstring.CompareTo(ThirdString) >= 0)
+            {
+                return Secondstring;
+            }
+            if (ThirdString.CompareTo(FirstString) > 0 && ThirdString.CompareTo(Secondstring) > 0 ||
+               ThirdString.CompareTo(FirstString) >= 0 && ThirdString.CompareTo(Secondstring) > 0 ||
+               ThirdString.CompareTo(FirstString) > 0 && ThirdString.CompareTo(Secondstring) >= 0)
+            {
+                return ThirdString;
+            }
+            return FirstString;
+        }
         static void Main(string[] args)
         {
-            Program Max = new Program();
-            Console.WriteLine("Maximum value is : " + Max.FindMaximumFloat(112.2f, 345.3f, 165.6f));
+            Console.WriteLine(MaximumIntegerNumber(30, 10, 5));
+            Console.WriteLine(MaximumFloatNumber(344.5, 340.2, 52.3));
+            Console.WriteLine(MaximumstringValue("Apple", "Banana", "Peach"));
+
         }
     }
 }
