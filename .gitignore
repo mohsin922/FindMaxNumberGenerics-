@@ -50,7 +50,3 @@ Generated\ Files/
 TestResult.xml
 nunit-*.xml
 
-# Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
-/c/Users/Shubham/source/repos/EmployeeWage/EmployeeWage/obj /c/Users/Shubham/source/repos/EmployeeWage/EmployeeWage/bin
