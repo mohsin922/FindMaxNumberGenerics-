@@ -4,7 +4,7 @@ namespace FindMaxNumberGenerics
 {
     class Program
     {
-        public int FindMaximum(int first, int second, int third)
+        public float FindMaximumFloat(float first, float second, float third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
@@ -20,15 +20,15 @@ namespace FindMaxNumberGenerics
             }
             else
             {
-                Console.WriteLine("Numbers are same");
-                return 1;
+                Console.WriteLine("Same Numbers");
+                return -1;
             }
         }
+
         static void Main(string[] args)
         {
-            Program obj = new Program();
-            int maxValue = obj.FindMaximum(120, 35, 645);
-            Console.WriteLine("Maximum of three values is : {0}", maxValue);
+            Program Max = new Program();
+            Console.WriteLine("Maximum value is : " + Max.FindMaximumFloat(112.2f, 345.3f, 165.6f));
         }
     }
 }
