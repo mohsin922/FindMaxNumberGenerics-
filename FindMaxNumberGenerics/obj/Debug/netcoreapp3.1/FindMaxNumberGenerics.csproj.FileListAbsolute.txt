@@ -1,0 +1,14 @@
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\bin\Debug\netcoreapp3.1\FindMaxNumberGenerics.exe
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\bin\Debug\netcoreapp3.1\FindMaxNumberGenerics.deps.json
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\bin\Debug\netcoreapp3.1\FindMaxNumberGenerics.runtimeconfig.json
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\bin\Debug\netcoreapp3.1\FindMaxNumberGenerics.runtimeconfig.dev.json
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\bin\Debug\netcoreapp3.1\FindMaxNumberGenerics.dll
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\bin\Debug\netcoreapp3.1\FindMaxNumberGenerics.pdb
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj\Debug\netcoreapp3.1\FindMaxNumberGenerics.csproj.AssemblyReference.cache
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj\Debug\netcoreapp3.1\FindMaxNumberGenerics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj\Debug\netcoreapp3.1\FindMaxNumberGenerics.AssemblyInfoInputs.cache
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj\Debug\netcoreapp3.1\FindMaxNumberGenerics.AssemblyInfo.cs
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj\Debug\netcoreapp3.1\FindMaxNumberGenerics.csproj.CoreCompileInputs.cache
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj\Debug\netcoreapp3.1\FindMaxNumberGenerics.dll
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj\Debug\netcoreapp3.1\FindMaxNumberGenerics.pdb
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj\Debug\netcoreapp3.1\FindMaxNumberGenerics.genruntimeconfig.cache
