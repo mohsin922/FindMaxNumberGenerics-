@@ -50,3 +50,8 @@ Generated\ Files/
 TestResult.xml
 nunit-*.xml
 
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\bin  C:\Users\MOHSIN ZAHOOR PEER\Desktop\FindMaxNumberGenerics\FindMaxNumberGenerics\obj
